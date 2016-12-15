@@ -11,6 +11,7 @@ import fcas.ltoy.mf.com.digitlotterforecast.R;
 import fcas.ltoy.mf.com.digitlotterforecast.ui.hall.HallFragment;
 import fcas.ltoy.mf.com.digitlotterforecast.ui.rcm.RcmSsqFragment;
 import fcas.ltoy.mf.com.digitlotterforecast.ui.tool.ToolFragment;
+import fcas.ltoy.mf.com.digitlotterforecast.util.Constant;
 import me.majiajie.pagerbottomtabstrip.Controller;
 import me.majiajie.pagerbottomtabstrip.PagerBottomTabLayout;
 import me.majiajie.pagerbottomtabstrip.listener.OnTabItemSelectListener;
@@ -32,7 +33,7 @@ public class MainActivity extends BaseActivity {
     }
 
     private void initView(){
-        Bmob.initialize(this, "90d083b9023db8465a912065fcac1481");
+        Bmob.initialize(this, Constant.BOMB_KEY);
         mBottomTabcontroller = mBottomTabLayout.builder()
                 .addTabItem(android.R.drawable.ic_menu_camera, "相机")
                 .addTabItem(android.R.drawable.ic_menu_compass, "开奖")

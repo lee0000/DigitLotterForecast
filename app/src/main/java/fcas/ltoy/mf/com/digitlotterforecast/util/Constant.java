@@ -9,4 +9,6 @@ public class Constant {
     public static String SSQ_TREND = "https://vipc.cn/ssq/trend";
 
     public static String BASE_URL = "https://data-center.vipc.cn/api/";
+
+    public static String BOMB_KEY = "90d083b9023db8465a912065fcac1481";
 }

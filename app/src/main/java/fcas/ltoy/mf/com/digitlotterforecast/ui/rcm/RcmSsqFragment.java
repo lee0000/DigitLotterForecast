@@ -27,7 +27,7 @@ import static fcas.ltoy.mf.com.digitlotterforecast.R.id.recyclerView;
 public class RcmSsqFragment extends Fragment implements HallHomeItemAdapter.OnRecyclerViewListener {
     private final String mPageName = getClass().getName();
     private Context mContext;
-    private View mRootView; 
+    private View mRootView;
 
     HallHomeItemAdapter mHallHomeItemAdapter;
 
